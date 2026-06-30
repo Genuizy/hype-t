@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hype't</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sign Up Screen -->
+    <div id="signupPage" class="page">
+        <div class="card">
+            <h1>Hype't</h1>
+            <p class="subtitle">Your AI Motivator</p>
+
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+
+                <button type="submit" class="primary">
+                    Create Account
+                </button>
+            </form>
+
+            <button id="skipBtn" class="secondary">
+                Skip for Testing →
+            </button>
+        </div>
+    </div>
+
+    <!-- Home Page -->
+    <div id="homePage" class="page hidden">
+        <div class="card">
+            <h1>👋 Welcome to Hype't</h1>
+
+            <p>
+                Your AI Motivator is ready to help you stay focused,
+                build habits, and crush your goals.
+            </p>
+
+            <button class="primary">
+                Start Your Journey
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
